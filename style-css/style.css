@@ -85,8 +85,11 @@ body{
     height: 1393px;
     border: 2px solid  red;
     margin: auto;   
-    text-align: center;
+    /* text-align: center; */
     padding: 80px 97px;
+}
+.why-web-development .web-development-container{
+    text-align: center;
 }
 .why-web-development .web-development-title{
     font-weight: 900;
@@ -99,4 +102,45 @@ body{
     font-size: 16px;
     color: #0D1321;
     padding-top: 20px;
+}
+/* web-developer-comment-style */
+#btn-secondary{
+    
+}
+.web-developer-comment{
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 97px;
+
+}
+.web-developer-comment .first-comment{
+    width: 477px;
+    height: 219px;
+    padding: 58px 48px;
+}
+.comment-title{
+    font-weight: bold;
+    font-size: 24px;
+    color: #0D1321;
+}
+.comment-description{
+    font-weight: 300;
+    font-size: 16px;
+    color: #0D1321;
+    padding-top: 18px;
+    padding-bottom: 32px;
+}
+.btn-secondary{
+    width: 171px;
+    height: 47px;
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+
+.web-developer-comment .developer-image-1{
+    width: 275px;
+    height: 240px;
+    padding: 48px 48px;
 }
