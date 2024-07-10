@@ -2,6 +2,10 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 /* heading-section-style */
 .heading-bar{
     display: flex;
@@ -23,4 +27,17 @@ body{
     padding: 17px 34px;
     font-weight: 500;
     font-size: 20px;
+}
+/* developer-banner-container-style */
+.developer-banner-container{
+    width: 1440px;
+    height: 652px;
+    border: 2px solid red;
+    margin-top: 48px;
+    margin-right: 86px;
+    background-image: url(../Images/Hero-bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
