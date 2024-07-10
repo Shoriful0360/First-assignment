@@ -116,7 +116,7 @@ body{
 .web-developer-comment .first-comment{
     width: 477px;
     height: 219px;
-    padding: 58px 48px;
+    padding: 48px 48px;
 }
 .comment-title{
     font-weight: bold;
@@ -143,4 +143,19 @@ body{
     width: 275px;
     height: 240px;
     padding: 48px 48px;
+}
+/* web-development-second-comment */
+.web-development-second-comment{
+    display: flex;
+}
+.developer-image-2{
+    width: 275px;
+    height: 240px;
+    padding: 48px 48px;
+}
+.second-comment{
+    width: 477px;
+    height: 219px;
+    padding: 58px 48px;
+
 }
