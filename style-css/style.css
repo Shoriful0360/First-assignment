@@ -147,6 +147,7 @@ body{
 /* web-development-second-comment */
 .web-development-second-comment{
     display: flex;
+    padding: 48px 48px;
 }
 .developer-image-2{
     width: 275px;
@@ -158,4 +159,10 @@ body{
     height: 219px;
     padding: 58px 48px;
 
+}
+/* developer-third-commnet-style */
+.developer-third-commnet{
+    display: flex;
+    justify-content: space-around;
+    padding: 48px 48px;
 }
