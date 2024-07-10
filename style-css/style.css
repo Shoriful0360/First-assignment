@@ -35,6 +35,8 @@ body{
     margin-top: 48px;
     margin-right: 86px;
     background-image: url(../Images/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -83,7 +85,6 @@ body{
 .why-web-development{
     width: 1140px;
     height: 1393px;
-    border: 2px solid  red;
     margin: auto;   
     /* text-align: center; */
     padding: 80px 97px;
@@ -150,8 +151,8 @@ body{
     padding: 48px 48px;
 }
 .developer-image-2{
-    width: 275px;
-    height: 240px;
+    max-width: 275px;
+    max-height: 240px;
     padding: 48px 48px;
 }
 .second-comment{
@@ -165,4 +166,60 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 48px 48px;
+}
+/* inspiration-style */
+.inspiration{
+    max-width: 1140px;
+    max-height: 775px;
+    margin: 0 auto;
+}
+.inspiration-container{
+    text-align: center;
+}
+
+.inspiration-subtitle{
+    font-weight: 300;
+    font-size: 16px;
+    color: #0D1321;
+    padding-top: 20px;
+    padding-bottom: 48px;
+
+}
+/* youtube-video-container-style */
+.youtube-video-container{
+    max-width: 1140px;
+    max-height: 616px;
+    margin: 0 auto;
+    padding-top: 80px;
+    border-radius: 16px;
+    
+}
+.iframe{
+
+    border-radius: 16px;
+    box-shadow: 2px white;
+}
+/* support-style */
+.support{
+    max-width: 1140px;
+    height: 313px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../Images/handshake.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    /* background-repeat: no-repeat; */
+
+}
+/* social-communication-contant */
+.social-communication-contant{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.social-contant{
+    display: flex;
 }
